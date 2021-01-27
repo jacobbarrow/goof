@@ -28,5 +28,8 @@ class MyCoolApproach(Player):
 Then, to test it out, add the approach to the list in `main.py`, passing a name as an argument, and run it
 
 ```python
-players = approaches.MyCoolApproach("Bob")
+players = [
+    approaches.MyCoolApproach("Bob"),
+    # other approaches here...
+]
 ```
