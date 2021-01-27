@@ -3,7 +3,7 @@
 
 ## Add your own approach
 
-To add your own approach, add a class to `approaches.py` that inherits the Player class, and has a method `` that sets `self.played_card` to the zero-indexed value of the card (A=0, K=12).
+To add your own approach, add a class to `approaches.py` that inherits the Player class, and has a method `pickCard` that sets `self.played_card` to the zero-indexed value of the card (A=0, K=12).
 
  There's a few variables available:
 
